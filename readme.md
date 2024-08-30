@@ -1,4 +1,3 @@
-```markdown
 # Distributed File System with Socket Programming
 
 ## Overview
@@ -57,7 +56,6 @@ gcc -o Spdf Spdf.c
 gcc -o Stext Stext.c
 gcc -o client24s client24s.c
 ```
-
 #### Running the Servers
 Each server (`Smain`, `Spdf`, `Stext`) must be run on different machines or terminals:
 ```bash
@@ -81,5 +79,4 @@ To interact with the distributed file system, run the client program:
 ### Acknowledgments
 - Developed as part of COMP-8567 course, Summer 2024.
 - Plagiarism Detection Tool: MOSS.
-```
 
